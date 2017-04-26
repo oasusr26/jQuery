@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+// Route::get('/', 'jQueryController@index');
+// Route::resource('lessons', 'jQueryController');
